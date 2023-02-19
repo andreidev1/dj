@@ -16,7 +16,7 @@ jobs:
           command: |
             pwd
             ls
-            pytest mysite/newsletter/tests/test_views.py
+            pytest newsletter/tests/test_views.py
       - setup_remote_docker:
           docker_layer_caching: true
       - run:
